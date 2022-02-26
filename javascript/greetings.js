@@ -33,4 +33,6 @@ if (savedUsername === null) {
 
 } else {
     greetings(savedUsername);
+    
 }
+ 
