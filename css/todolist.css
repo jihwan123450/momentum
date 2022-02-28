@@ -1,0 +1,49 @@
+.todo_form input {
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.todo_list {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin: 10px 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--memobgc);
+  height: 75vh;
+  font-family: "Dancing Script", cursive;
+}
+
+.todo_form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.todo_listtxt {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.todo_list li {
+  padding: 10px 5px;
+  border-bottom: 2px solid var(--memoudl);
+  width: 230px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.todo_list li button {
+  border: none;
+  margin: 5px;
+  padding: 10px;
+
+  background: url("delete.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

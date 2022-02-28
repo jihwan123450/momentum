@@ -7,15 +7,13 @@ function onGeoSuccess(position) {
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            const weather = document.querySelector("#weather span:first-child");
+            const wind = document.querySelector("#weather span:first-child");
+            const temp = document.querySelector("#weather span:nth-child(2)");
             const name = document.querySelector("#weather span:last-child");
-            name.innerText = data.name;
-            weather.innerText = `${data
-                .weather[0]
-                .main} / ${data
-                .main
-                .temp}℃`;
-
+            name.innerText = `location : ${data.name}`;
+            temp.innerText = ` min-temp : ${data.main.temp_min}℃ \n max-temp : ${data.main.temp_max}℃`;
+            wind.innerText = `windspeed : ${data.wind.speed} m/s `;
+            
         })
 }
 function onGeoError() {}

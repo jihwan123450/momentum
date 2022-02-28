@@ -5,31 +5,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <title>Jihwan webpage</title>
+        <link rel="icon" href="img/titleimg.PNG" sizes=" 64*64" />
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=League+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zen+Antique&display=swap" rel="stylesheet">
+        <title >
+            My Webpage
+        </title>
     </head>
     <body>
-        <form class="form">
-            <input type="text" placeholder="what is your name?"/>
-            <button>Log In</button>
-        </form>
-        <h1 class="hidden"></h1>
-        <form class="todo_form">
-            <input
-                type="text"
-                required="required"
-                placeholder="Write things to do and Press Enter"/>
-        </form>
-        <ul class="todo_list">"To Do List"</ul>
+        <div class="upper_box">
+            <div class="upperfirstbox">
+                <div class="quotebox">
+                    <div class="quotes">
+                        
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+    
+                <ul class="todo_list">
+                    <span class="todo_listtxt"> "To Do List"</span>     
+                    <form class="todo_form">
+                        <input
+                            type="text"
+                            required="required"
+                            placeholder="Write things to do and Press Enter"/>
+                    </form>
+    
+                </ul>
+            </div>
+            
+            
+            <div class="formbox">
+                <form class="form">
+                    <input type="text" placeholder="what is your name?"/>
+                    <button>Log In</button>
+                </form>
+                <h2 id="clock"></h2>
+                <h1 class="hidden"></h1>
+    
+            </div>
+            
+            <div class="todaystatus">
+                <div id="weather">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                
+            </div>
+
+        </div>
         
-        <h2 id="clock"></h2>
-        <div class="quotes">
-            <span></span>
-            <span></span>
-        </div>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
+        
+   
 
         <script src="javascript/greetings.js"></script>
         <script src="javascript/clock.js"></script>

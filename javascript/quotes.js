@@ -21,7 +21,7 @@ const quotes = [
         quote: "You only live once, but if you do it right, once is enough.",
         author: "Mae West"
     }, {
-        quote: "Never go on trips with anyone you do ntot love.",
+        quote: "Never go on trips with anyone you do not love.",
         author: "Hemmingway"
     }, {
         quote: "We wander for distraction, but we travel for fulfilment.",

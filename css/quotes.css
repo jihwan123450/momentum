@@ -1,0 +1,16 @@
+.quotes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: var(--gray);
+  border-radius: 5px;
+  font-family: "League Gothic", sans-serif;
+}
+.quotes span:first-child {
+  font-size: 30px;
+}
+.quotes span:last-child {
+  font-size: 20px;
+}

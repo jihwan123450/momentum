@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hidden {
+  display: none;
+}
+
+.formbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 50%;
+}
+
+form ~ h1 {
+  display: flex;
+  font-size: 50px;
+  position: absolute;
+  top: 100px;
+  font-family: "Zen Antique", serif;
+}
+
+form + h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
